@@ -4,11 +4,6 @@
   cursor: pointer;
 }
 
-.App-logo {
-  height: 10vmin;
-  pointer-events: none;
-}
-
 .App-head {
   display: flex;
   justify-content: space-between;
@@ -31,6 +26,19 @@
   list-style-type: none;
   gap: 10px;
   margin-right: 8px;
+}
+
+.App-nav a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.App-nav li.active {
+  background-color: #555;
+}
+
+.App-nav li:hover {
+  background-color: #777;
 }
 
 .App-footer {
